@@ -4,7 +4,7 @@ class Stax < Formula
   desc "Manage Everything Cloudformation with stax"
   homepage "https://github.com/acaire/stax"
   url "https://github.com/acaire/stax/archive/0.3.1.tar.gz"
-  sha256" a1743168f1610e3bf516d5b18f814cdd437b18fe37086cccd1d9e95d9b365888"
+  sha256 "a1743168f1610e3bf516d5b18f814cdd437b18fe37086cccd1d9e95d9b365888"
 
   depends_on "python@3.8"
 
@@ -111,11 +111,8 @@ class Stax < Formula
   end
 
   test do
-
     cd testpath/"homebrew" do
       system "#{bin}/stax", "--version"
     end
-
   end
-
 end
