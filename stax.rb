@@ -105,9 +105,6 @@ class Stax < Formula
 
   def install
     virtualenv_install_with_resources
-
-    bin.install libexec/"bin/stax"
-    bin.env_script_all_files(libexec/"bin", :PYTHONPATH => ENV["PYTHONPATH"])
   end
 
   test do
