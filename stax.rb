@@ -3,8 +3,8 @@ class Stax < Formula
 
   desc "Manage Everything Cloudformation with stax"
   homepage "https://github.com/acaire/stax"
-  url "https://github.com/acaire/stax/archive/0.3.4.tar.gz"
-  sha256 "6ba73c569bab8397b14683547d8a932cce8917df082cc79f966a56f49ee0959e"
+  url "https://github.com/acaire/stax/archive/0.3.5.tar.gz"
+  sha256 "71a57ee65d157738a8e584905df3456e07fc23f4fb5f74fb705cb3c4686cf887"
 
   depends_on "python@3.8"
 
